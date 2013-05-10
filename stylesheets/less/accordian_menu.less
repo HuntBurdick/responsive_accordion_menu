@@ -1,0 +1,54 @@
+.accordian_menu {
+	font-family: arial;
+	list-style: none;
+	margin:16px;
+	padding:0px;
+	li {
+		padding:0px;
+		margin:5px 0px;
+		background: url(../images/menu_item_1.jpg) top left repeat-x;
+		span, a {
+			color: #FFFFFF;
+		    display: block;
+		    font-size: 0.8em;	
+		    height: 36px;
+		    letter-spacing: 1px;
+		    line-height: 36px;
+		    margin-bottom: 6px;
+		    padding: 0 0 0 1em;
+		    text-transform: uppercase;
+		    width: 100%;
+		    text-decoration: none;
+		}
+		.up_arrow {
+			background: url(../images/up_arrow.png) top left no-repeat;
+			height: 40px;
+		    float:right;
+		    width: 40px;
+		}
+		.down_arrow {
+			background: url(../images/down_arrow.png) top left no-repeat;
+			height: 40px;
+		    float:right;
+		    width: 40px;
+		}
+	}
+	.has_sub {
+		cursor: pointer;
+		ul {
+			display: none;
+			list-style: none;
+			width: 100%;
+			padding:0px;
+			margin:0px;
+			color:#fff;
+			text-transform: uppercase;
+			&.dropped {
+				margin-top:10px;
+			}
+			li {
+				background: url(../images/menu_item_dropdown.jpg) top left repeat-x;
+			}
+		}
+	}
+}

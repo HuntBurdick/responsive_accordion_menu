@@ -1,4 +1,4 @@
-accordion_menu
+accordian_menu
 ==============
 
-Responsive Accordion Menu
+Jquery Responsive Accordian Menu
